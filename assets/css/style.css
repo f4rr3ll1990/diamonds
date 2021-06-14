@@ -40,7 +40,10 @@ body {
 my-form-status {
   margin-top: 50px;
 }
-
+#comment {
+  color: #fff;
+  background-color: rgba(0,0,0,0.1);
+}
 
 a {
   color: #e03a3c;
@@ -2222,5 +2225,8 @@ section {
   .formhead-wrap {
     padding: 0 30px;
     text-align: center;
+  }
+  #comment-mobile {
+    color: #000;
   }
 }
