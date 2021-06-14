@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   display: none;
   right: 15px;
-  bottom: 15px;
+  bottom: 80px;
   z-index: 99999;
 }
 
@@ -2228,5 +2228,30 @@ section {
   }
   #comment-mobile {
     color: #000;
+  }
+  .mobile-nav {
+    background-color: #000;
+  }
+  .mobile-nav ul {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-nav ul li {
+    font-size: 1.5em;
+  }
+  .mobile-nav a {
+    color: #fff;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+  .get-started-btn {
+      margin: 0 75px 0 0;
+      padding: 6px 18px;
   }
 }
