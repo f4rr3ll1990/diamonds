@@ -44,6 +44,35 @@ my-form-status {
   color: #fff;
   background-color: rgba(0,0,0,0.1);
 }
+#accordion h5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#accordion h5 button {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+#accordion h5 i {
+  font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 a {
   color: #e03a3c;
@@ -2219,6 +2248,9 @@ section {
 	#header .logo img {
 		max-height: 20px;
 	}
+  .hero-wrap {
+    padding-top: 38vh;
+  }
   .modal-dialog {
     margin-top: 50px;
   }
