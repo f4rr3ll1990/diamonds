@@ -24,7 +24,19 @@ body {
   color: #fff;
 }
 
-
+.faqcard .btn-link {
+  color: #000;
+  text-decoration: underline;
+}
+.faqcard .btn-link:hover {
+  color: #666;
+}
+.faqcard .btn-link i {
+  font-size: 22px;
+}
+.faqcard .card-header {
+  text-align: center;
+}
 
 
 a {
